@@ -6,9 +6,7 @@ import './App.css'
 function App() {
   return (
     <PasswordProvider>
-      <div className="App">
         <PasswordGenerator />
-      </div>
     </PasswordProvider> 
   )
 }

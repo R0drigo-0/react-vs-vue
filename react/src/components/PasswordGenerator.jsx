@@ -59,7 +59,7 @@ export default function PasswordGenerator() {
             type="range" 
             name="length"
             min="8" 
-            max="64" 
+            max="24" 
             value={options.length}
             onChange={handleOptionChange}
           />
