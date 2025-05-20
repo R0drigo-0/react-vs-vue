@@ -1,4 +1,4 @@
-import { createContext, useState } from "react";
+import { createContext, useEffect, useState } from "react";
 
 export const PasswordContext = createContext();
 
@@ -116,6 +116,10 @@ export function PasswordProvider({ children }) {
       symbols: options.symbols,
     });
   };
+
+  useEffect(() => {
+    generatePassword();
+  }, [options]);
 
   return (
     <PasswordContext.Provider

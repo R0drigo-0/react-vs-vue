@@ -4,10 +4,6 @@ import { PasswordContext } from "../context/PasswordContext";
 export default function PasswordGenerator() {
   const { password, strength, options, generatePassword, updateOptions, copyToClipboard } = useContext(PasswordContext);
   
-  useEffect(() => {
-    generatePassword();
-  }, []);
-
   const handleOptionChange = (e) => {
     const { name, type, checked, value } = e.target;
     if (type === "checkbox") {
