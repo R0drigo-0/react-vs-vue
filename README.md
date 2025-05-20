@@ -74,7 +74,3 @@ The password generator app allows users to:
 - Scoped CSS within components
 - Style encapsulation with `<style scoped>`
 - Global styles defined in App component
-
-## Project Structure
-
-### React Project
