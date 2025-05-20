@@ -14,12 +14,12 @@ The password generator app allows users to:
 ## Visual Comparison
 
 <p align="center">
-  <img src="./images/react.png" width="45%" alt="React Password Generator">
+  <img src="./images/react.png" width="40%" alt="React Password Generator">
   &nbsp; &nbsp; &nbsp; &nbsp;
-  <img src="./images/vue.png" width="45%" alt="Vue Password Generator">
+  <img src="./images/vue.png" width="40%" alt="Vue Password Generator">
 </p>
 <p align="center">
-  <em>Left: React implementation &nbsp; &nbsp; &nbsp; Right: Vue implementation</em>
+  <em>React implementation &nbsp; &nbsp; &nbsp; Vue implementation</em>
 </p>
 
 ## Key Framework Differences
