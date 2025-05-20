@@ -16,11 +16,11 @@ The password generator app allows users to:
 <div style="display: flex; justify-content: space-between;">
   <div style="flex: 1; margin-right: 10px;">
     <h3>React Implementation</h3>
-    <img src="./images/react.png" alt="React Password Generator" style="width: 100%;">
+    <img src="./images/react.png" alt="React Password Generator" style="width: 80rem;">
   </div>
   <div style="flex: 1; margin-left: 10px;">
     <h3>Vue Implementation</h3>
-    <img src="./images/vue.png" alt="Vue Password Generator" style="width: 100%;">
+    <img src="./images/vue.png" alt="Vue Password Generator" style="width: 80rem;">
   </div>
 </div>
 
